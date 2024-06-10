@@ -40,15 +40,17 @@ This directory contains files needed to make Edge predictions using the measures
 For using the measures, the `EGS_SGS.py` file should be run on the output of the alignments and `Predictable.sh` can be used to find the predictions that were correct based on the correct file.
 
 # Data
-`Self_alignment.7z`
+The data can be accessed at [SANA Website](https://sana.ics.uci.edu/SANA-predicts-GO-terms/).
+
+`Multi-SANA-self_alignments.7z`
 
 This compressed file contained self-alignments with controlled error rates. The alignments are between March 2023 BioGrid networks.
 
-`IID_alignments.7z`
+`Multi-SANA-IID_alignments.7z`
 
 This file contains the midway and final alignments created by SANA using the IID Mammalian Networks listed in the paper.
 
-`BioGrid2010.7z`
+`Multi-SANA-BioGrid2010.7z`
 
 This file contains the final alignments created by SANA using the BioGRID v3.0.064 networks.
 
